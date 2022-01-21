@@ -21,7 +21,7 @@ requirements:
     - python >=2.7
   run:
     - python >=2.7
-    - mo-dots 7.4.21313
+    - mo-dots 9.113.22021
     - mo-future 6.2.21303
 
 test:
