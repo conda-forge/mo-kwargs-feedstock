@@ -1,5 +1,5 @@
 {% set name = "mo-kwargs" %}
-{% set version = "7.230.22310" %}
+{% set version = "7.238.22316" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mo-kwargs-{{ version }}.tar.gz
-  sha256: 3950790da31cfe8d9d556e88ac6ed154dbb1ee985413d80cbe30e55707c4c051
+  sha256: 3c6cd41c4f732122a04dfaad5fd7216f198abb20f03f27f9013d627bb3da80e8
 
 build:
   number: 0
@@ -21,7 +21,7 @@ requirements:
     - python >=2.7
   run:
     - python >=2.7
-    - mo-dots ==9.230.22310
+    - mo-dots ==9.238.22316
     - mo-future ==6.230.22310
 
 test:
