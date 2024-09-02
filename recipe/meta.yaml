@@ -21,7 +21,7 @@ requirements:
     - python >=2.7
   run:
     - python >=2.7
-    - mo-dots ==9.531.24035
+    - mo-dots ==10.647.24166
     - mo-future ==7.531.24035
 
 test:
